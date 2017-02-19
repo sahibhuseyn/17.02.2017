@@ -1,0 +1,295 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+}
+/*common classes*/
+
+.full{
+	width: 100%;
+}
+.wrapper{
+	width: 1200px;
+	margin:0 auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.mainColor{
+	background: #f6f7f9;
+}
+.fontColor{
+	color: #93dbe3;
+}
+
+/*header section*/
+
+
+#header{
+	height: 800px;
+	background: url(../images/hero.jpg);
+	background-attachment: fixed;
+	overflow: hidden;
+}
+#header .wrapper .logo, #header .wrapper .menu{
+	float: left;
+}
+#header .wrapper .menu{
+	float: right;
+	color: white;
+}
+#header .wrapper{
+	padding-top: 30px;
+}
+#header .wrapper p{
+	margin: 0 auto;
+	margin-top: 100px;
+	color: white;
+	font-size: 3em;
+}
+#header .btmGroup{
+	margin-top: 50px;
+}
+#header .wrapper a{
+	text-decoration: none;
+	padding: 20px 40px;
+	border-radius: 3px;
+}
+#header .btmGroup a:nth-child(1){
+background-color: white;
+color: #72CFD9;
+border:1px solid transparent;
+}
+#header .btmGroup a:nth-child(1):hover{
+background-color:  #72CFD9;
+color:white;
+}
+#header .btmGroup a:nth-child(2){
+background-color: transparent;
+color: white;
+border:1px solid white;
+margin-left: 8px;
+}
+#header .btmGroup a:nth-child(2):hover{
+border-color:#72CFD9;
+color:#72CFD9;
+}
+
+/*video section*/
+#video{
+	height: 200px;
+	text-align: center;
+}
+
+#video a{
+	color: black;
+	font-size: 2em;
+}
+#video a:hover{
+	color: #93dbe3;
+}
+#video a i{
+	height: 50px;
+	margin-top: 80px;
+}
+
+/*slider section*/
+
+#slider{
+	height: 320px; 
+	background: #3f6184 url(../images/features-intro-01.jpg) no-repeat;
+	background-size:50%;
+	overflow: hidden;
+}
+#slider .htmlLogo{
+	width: 50%;
+	text-align: center;
+	margin-top: 100px;
+}
+#slider .sliderRight{
+	width: 466px;
+	height: 100%;
+	margin-top: 50px;
+	margin-right: 60px;
+	
+}
+
+#slider .sliderRight h1{
+	color: white;
+	margin:0 auto;
+	font-size: 1.1em;
+}
+#slider .sliderRight p{
+	color: white;
+	font-size: 14px;
+}
+#slider .sliderRight a{
+	text-decoration: none;
+}
+
+/*features section*/
+#features{
+	width: 100%;
+	height: 440px;
+	margin: 0 auto;
+}
+#features .featuresMain {
+	display: flex;
+	justify-content: space-around;
+	padding:60px 0;
+}
+#features .featuresMain p{
+	width: 210px;
+}
+
+
+/*services section*/
+
+#services{
+	height: 610px;
+	background: url(../images/showcase-bg.jpg);
+	background-attachment: fixed;
+}
+#services .iPhone{
+float: left;
+width: 50%;
+}
+#service .iPhone{
+background-image: url("../images/screen1.jpg");
+background-size: 270px;
+background-position: 50px 100px;
+background-repeat: no-repeat;*/
+}
+#services .right{
+float: right;
+color: white;
+width: 50%;
+}
+#services p{
+line-height: 2;
+}
+#services .right>img:nth-of-type(1){
+float: left;
+margin: 0px 40px 0px 0px;
+}
+#services .right>img:nth-of-type(2){
+float: left;
+margin: 20px 0px 80px 100px;
+}
+#services a{
+padding: 20px 60px;
+border-radius: 3px;
+border:1px solid white;
+color: white;
+text-transform: uppercase;
+}
+
+/*powerfil section*/
+
+#powerful{
+	height: 455px;
+}
+#powerful div{
+	margin-top:0;
+}
+#powerful div a{
+	color: #72CFD9;
+	text-decoration: none;
+}
+#powerful div h1, #powerful div p{
+	color: #8a88a5;
+	font-size: 15px;
+}
+
+/*gallery section*/
+#gallery{
+	height: 510px;
+}
+#gallery .galleryItems>div{
+	margin: 0;
+	padding: 0;
+}
+#gallery .galleryItems ul {
+	display: block;
+	margin-left: -40px;
+}
+#gallery .galleryItems ul li{
+	list-style: none;
+	float: left;
+	width: 25%;
+	margin:0;
+	padding: 0;
+	min-height: 100%;
+}
+#gallery .galleryItems img{
+	width: 100%;
+    height: 100%;
+}
+
+/*download section*/
+#download{
+	height: 390px;
+	background: #3f6184;
+	text-align: center;
+	margin-top: -30px;
+}
+#download h1{
+	margin-top: 10px;
+	font-size: 2.5em;
+	padding:  30px 0;
+	text-transform: capitalize;
+	color: white;
+}
+#download a{
+	padding: 20px 60px;
+	border-radius: 4px;
+	border:2px solid white;
+	color: white;
+	text-transform: uppercase;
+}
+#download a:hover{
+	border-color:#72CFD9;
+	color:#72CFD9;
+}
+
+/*footer section*/
+#footer{
+	height: 320px;
+}
+#footer div{
+	margin-top: 50px;
+}
+#footer .blueLogo{
+	float: left;
+	width: 50%;
+}
+#footer ul li{
+	list-style: none;
+	display: inline;
+	margin: 0 20px 0 20px;
+}
+#footer li a{
+color:rgba(0,0,0,.8);
+text-decoration: none;
+}
+#footer li a:hover{
+color:#72CFD9;
+}
+#footer p{
+font-size: 0.9em;
+margin: 20px 0;
+color:rgba(0,0,0,.5);
+}
+#footer p a{
+	text-decoration: none;
+	font-style: italic;
+	color:#72CFD9;
+}
